@@ -2,5 +2,5 @@
 # max_value_of_int = 2**63 + 1
 # print(max_value_of_int)
 import sys
-max = sys.maxsize
-print(max)
+max_int = sys.maxsize
+print(max_int)
