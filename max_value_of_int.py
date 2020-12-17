@@ -1,3 +1,6 @@
+# There is no predefined max value of int in python3. It completely depends on memory of system
 # max_value_of_int = 2**63 + 1
 # print(max_value_of_int)
-print(r'foo\\bar\nbaz')
+import sys
+max = sys.maxsize
+print(max)
